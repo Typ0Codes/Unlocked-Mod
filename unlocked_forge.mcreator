@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BeeHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unlocked_forge/models/item/bee_hammer.json",
+          "src/main/java/net/mcreator/unlockedforge/item/BeeHammerItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.unlocked_forge.bee_hammer": "Bee Hammer"
+    }
   },
   "foldersRoot": {
     "name": "~",
