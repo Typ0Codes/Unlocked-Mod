@@ -1,18 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ouirghuw",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ouirghuw",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/unlockedforge/item/OuirghuwItem.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
