@@ -9,6 +9,9 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.entity.LivingEntity;
+
+import net.mcreator.unlockedforge.procedures.BeeHammerLivingEntityIsHitWithToolProcedure;
 
 public class BeeHammerItem extends AxeItem {
 	public BeeHammerItem() {
@@ -36,7 +39,14 @@ public class BeeHammerItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3.9f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		BeeHammerLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 
 	@Override

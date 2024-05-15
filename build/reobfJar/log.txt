@@ -134,6 +134,14 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
 Sorting
 Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\output.jar
@@ -144,18 +152,20 @@ Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\o
   assets/unlocked_forge/
   assets/unlocked_forge/lang/
   assets/unlocked_forge/lang/en_us.json
+  assets/unlocked_forge/models/
+  assets/unlocked_forge/models/item/
+  assets/unlocked_forge/models/item/bee_hammer.json
   assets/unlocked_forge/textures/
   assets/unlocked_forge/textures/item/
-  assets/unlocked_forge/textures/item/2e_body.png
-  assets/unlocked_forge/textures/item/2e_boots.png
-  assets/unlocked_forge/textures/item/2e_head.png
-  assets/unlocked_forge/textures/item/2e_leggings.png
-  assets/unlocked_forge/textures/models/
-  assets/unlocked_forge/textures/models/armor/
-  assets/unlocked_forge/textures/models/armor/2e_layer_1.png
-  assets/unlocked_forge/textures/models/armor/2e_layer_2.png
+  assets/unlocked_forge/textures/item/image-removebg-preview.png
   net/
   net/mcreator/
   net/mcreator/unlockedforge/
   net/mcreator/unlockedforge/UnlockedForgeMod.class
+  net/mcreator/unlockedforge/init/
+  net/mcreator/unlockedforge/init/UnlockedForgeModItems.class
+  net/mcreator/unlockedforge/init/UnlockedForgeModTabs.class
+  net/mcreator/unlockedforge/item/
+  net/mcreator/unlockedforge/item/BeeHammerItem$1.class
+  net/mcreator/unlockedforge/item/BeeHammerItem.class
   pack.mcmeta

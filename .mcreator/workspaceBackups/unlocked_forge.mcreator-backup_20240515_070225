@@ -1,0 +1,85 @@
+{
+  "mod_elements": [
+    {
+      "name": "BeeHammer",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unlocked_forge/models/item/bee_hammer.json",
+          "src/main/java/net/mcreator/unlockedforge/item/BeeHammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hammercrit",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammercrit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/HammercritProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.unlocked_forge.bee_hammer": "Bee Hammer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unlocked_forge",
+    "modName": "Unlocked Forge",
+    "version": "1.0.0",
+    "author": "espen, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.unlockedforge"
+  },
+  "mcreatorVersion": 202400118518
+}
