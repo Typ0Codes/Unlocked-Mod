@@ -1,46 +1,10 @@
 {
-  "parent": "item/handheld",
+  "parent": "unlocked_forge:custom/shield",
   "textures": {
-    "layer0": "unlocked_forge:item/reinforcedshield"
-  },
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [
-        45,
-        -35,
-        0
-      ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [
-        45,
-        -35,
-        0
-      ]
-    },
-    "firstperson_righthand": {
-      "rotation": [
-        0,
-        0,
-        5
-      ],
-      "translation": [
-        -5,
-        2,
-        -1
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        0,
-        0,
-        5
-      ],
-      "translation": [
-        -5,
-        2,
-        -1
-      ]
-    }
+    "0": "unlocked_forge:block/",
+    "1": "unlocked_forge:block/",
+    "2": "unlocked_forge:block/",
+    "3": "unlocked_forge:block/",
+    "particle": "unlocked_forge:item/reinforcedshield"
   }
 }

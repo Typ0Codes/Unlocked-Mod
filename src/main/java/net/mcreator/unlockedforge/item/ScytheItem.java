@@ -4,7 +4,11 @@ package net.mcreator.unlockedforge.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
+
+import net.mcreator.unlockedforge.procedures.ScytheLivingEntityIsHitWithToolProcedure;
 
 public class ScytheItem extends SwordItem {
 	public ScytheItem() {
@@ -33,5 +37,12 @@ public class ScytheItem extends SwordItem {
 				return Ingredient.of();
 			}
 		}, 3, -3f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		ScytheLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 }
