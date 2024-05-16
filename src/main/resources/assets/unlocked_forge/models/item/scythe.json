@@ -1,0 +1,10 @@
+{
+  "parent": "unlocked_forge:custom/scythe",
+  "textures": {
+    "2": "unlocked_forge:block/",
+    "3": "unlocked_forge:block/",
+    "4": "unlocked_forge:block/",
+    "5": "unlocked_forge:block/",
+    "particle": "unlocked_forge:item/heartsword"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "unlocked_forge:custom/shield",
+  "textures": {
+    "0": "unlocked_forge:block/",
+    "1": "unlocked_forge:block/",
+    "2": "unlocked_forge:block/",
+    "3": "unlocked_forge:block/",
+    "particle": "unlocked_forge:item/reinforcedshield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "unlocked_forge:item/reinforced_shield_0"
+    }
+  ]
+}

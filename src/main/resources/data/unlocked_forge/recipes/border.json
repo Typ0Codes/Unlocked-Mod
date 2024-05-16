@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "unlocked_forge:playerheart"
+    },
+    "b": {
+      "item": "minecraft:emerald"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "unlocked_forge:border_expansion_rune",
+    "count": 1
+  }
+}

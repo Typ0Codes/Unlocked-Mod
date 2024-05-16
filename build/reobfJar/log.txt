@@ -140,6 +140,7 @@ Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/DiggerItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Adding extras
@@ -153,11 +154,16 @@ Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\o
   assets/unlocked_forge/lang/
   assets/unlocked_forge/lang/en_us.json
   assets/unlocked_forge/models/
+  assets/unlocked_forge/models/custom/
+  assets/unlocked_forge/models/custom/bee.json
   assets/unlocked_forge/models/item/
   assets/unlocked_forge/models/item/bee_hammer.json
   assets/unlocked_forge/textures/
   assets/unlocked_forge/textures/item/
   assets/unlocked_forge/textures/item/image-removebg-preview.png
+  assets/unlocked_forge/textures/item/key.png
+  assets/unlocked_forge/textures/screens/
+  assets/unlocked_forge/textures/screens/key.png
   net/
   net/mcreator/
   net/mcreator/unlockedforge/
@@ -168,4 +174,6 @@ Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\o
   net/mcreator/unlockedforge/item/
   net/mcreator/unlockedforge/item/BeeHammerItem$1.class
   net/mcreator/unlockedforge/item/BeeHammerItem.class
+  net/mcreator/unlockedforge/procedures/
+  net/mcreator/unlockedforge/procedures/BeeHammerLivingEntityIsHitWithToolProcedure.class
   pack.mcmeta

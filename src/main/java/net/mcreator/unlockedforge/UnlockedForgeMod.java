@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.unlockedforge.init.UnlockedForgeModTabs;
 import net.mcreator.unlockedforge.init.UnlockedForgeModItems;
+import net.mcreator.unlockedforge.init.UnlockedForgeModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,6 +42,7 @@ public class UnlockedForgeMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		UnlockedForgeModItems.REGISTRY.register(bus);
+		UnlockedForgeModEntities.REGISTRY.register(bus);
 
 		UnlockedForgeModTabs.REGISTRY.register(bus);
 

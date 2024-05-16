@@ -1,0 +1,228 @@
+{
+  "mod_elements": [
+    {
+      "name": "BeeHammer",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/BeeHammerItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/bee_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "BeeHammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/BeeHammerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unlocked",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlocked",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Echo",
+      "type": "projectile",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/entity/EchoEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "WardenBow",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warden_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/WardenBowItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/warden_bow.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unlocked_forge/models/item/haste_sword.json",
+          "src/main/java/net/mcreator/unlockedforge/item/HasteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightningSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unlocked_forge/models/item/lightning_sword.json",
+          "src/main/java/net/mcreator/unlockedforge/item/LightningSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ShadowAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/ShadowAxeItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/shadow_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedShield",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/ReinforcedShieldItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/reinforced_shield_0.json",
+          "src/main/resources/assets/unlocked_forge/models/item/reinforced_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/ScytheItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/scythe.json"
+        ]
+      }
+    },
+    {
+      "name": "BorderExpansionRune",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "border_expansion_rune",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unlocked_forge/models/item/border_expansion_rune.json",
+          "src/main/java/net/mcreator/unlockedforge/item/BorderExpansionRuneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Border",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "border",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/unlocked_forge/recipes/border.json"
+        ]
+      }
+    },
+    {
+      "name": "PlayerHead",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_head",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/PlayerHeadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.unlocked_forge.reinforced_shield": "Reinforced Shield",
+      "item_group.unlocked_forge.unlocked": "Unlocked",
+      "item.unlocked_forge.lightning_sword": "Lightning Sword",
+      "item.unlocked_forge.scythe": "Scythe",
+      "item.unlocked_forge.haste_sword": "Haste Sword",
+      "item.unlocked_forge.bee_hammer": "Bee Hammer",
+      "item.unlocked_forge.shadow_axe": "Shadow Axe",
+      "item.unlocked_forge.border_expansion_rune": "Border Expansion Rune",
+      "item.unlocked_forge.warden_bow": "Warden Bow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unlocked_forge",
+    "modName": "Unlocked Forge",
+    "version": "1.0.0",
+    "author": "espen, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.unlockedforge"
+  },
+  "mcreatorVersion": 202400118518
+}

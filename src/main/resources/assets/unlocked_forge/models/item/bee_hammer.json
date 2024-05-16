@@ -1,6 +1,9 @@
 {
-  "parent": "item/handheld",
+  "parent": "unlocked_forge:custom/bee",
   "textures": {
-    "layer0": "unlocked_forge:item/image-removebg-preview"
+    "0": "unlocked_forge:block/",
+    "1": "unlocked_forge:block/",
+    "2": "unlocked_forge:block/",
+    "particle": "unlocked_forge:item/image-removebg-preview"
   }
 }

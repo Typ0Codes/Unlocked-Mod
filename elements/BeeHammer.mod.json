@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "image-removebg-preview",
-    "customModelName": "Normal",
+    "customModelName": "bee:default",
     "blockingModelName": "Normal blocking",
     "name": "Bee Hammer",
     "specialInformation": {
