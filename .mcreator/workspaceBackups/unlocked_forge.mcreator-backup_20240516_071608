@@ -286,6 +286,52 @@
           "src/main/resources/assets/unlocked_forge/particles/electricitypart.json"
         ]
       }
+    },
+    {
+      "name": "HasteSwordRightclicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/HasteSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ScytheLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

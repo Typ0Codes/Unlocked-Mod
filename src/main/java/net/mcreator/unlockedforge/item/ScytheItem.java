@@ -22,7 +22,7 @@ public class ScytheItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -42,7 +42,7 @@ public class ScytheItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		ScytheLivingEntityIsHitWithToolProcedure.execute(entity);
+		ScytheLivingEntityIsHitWithToolProcedure.execute(entity, sourceentity);
 		return retval;
 	}
 }

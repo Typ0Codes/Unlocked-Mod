@@ -103,7 +103,7 @@
       "name": "ShadowAxe",
       "type": "tool",
       "sortid": 9,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "shadow_axe",
       "metadata": {
@@ -325,6 +325,94 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ShadowOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ShadowAxeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shadowcrit",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowcrit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ShadowcritProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowAxeRightclicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_axe_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ShadowAxeRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -337,13 +425,13 @@
     "en_us": {
       "effect.unlocked_forge.electricity": "Electricity",
       "item.unlocked_forge.reinforced_shield": "Reinforced Shield",
+      "item.unlocked_forge.shadow_axe": "Shadow Axe",
       "item_group.unlocked_forge.unlocked": "Unlocked",
       "item.unlocked_forge.lightning_sword": "Lightning Sword",
       "item.unlocked_forge.scythe": "Scythe",
       "item.unlocked_forge.haste_sword": "Haste Sword",
       "item.unlocked_forge.playerheart": "Playerheart",
       "item.unlocked_forge.bee_hammer": "Bee Hammer",
-      "item.unlocked_forge.shadow_axe": "Shadow Axe",
       "item.unlocked_forge.border_expansion_rune": "Border Expansion Rune",
       "item.unlocked_forge.warden_bow": "Warden Bow"
     }

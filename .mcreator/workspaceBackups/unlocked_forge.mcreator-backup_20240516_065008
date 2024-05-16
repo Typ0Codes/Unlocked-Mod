@@ -314,7 +314,7 @@
       "name": "ScytheLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "scythe_living_entity_is_hit_with_tool",
       "metadata": {
@@ -324,10 +324,6 @@
         "dependencies": [
           {
             "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
             "type": "entity"
           }
         ]
