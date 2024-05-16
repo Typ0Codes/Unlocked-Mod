@@ -201,6 +201,114 @@
           "src/main/resources/assets/unlocked_forge/models/item/playerheart.json"
         ]
       }
+    },
+    {
+      "name": "Electricity",
+      "type": "potioneffect",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/potion/ElectricityMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectricityEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ElectricityEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningSwordRightclicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/LightningSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electricitypart",
+      "type": "particle",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricitypart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/client/particle/ElectricitypartParticle.java",
+          "src/main/resources/assets/unlocked_forge/particles/electricitypart.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteSwordRightclicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/HasteSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -208,6 +316,7 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "effect.unlocked_forge.electricity": "Electricity",
       "item.unlocked_forge.reinforced_shield": "Reinforced Shield",
       "item_group.unlocked_forge.unlocked": "Unlocked",
       "item.unlocked_forge.lightning_sword": "Lightning Sword",

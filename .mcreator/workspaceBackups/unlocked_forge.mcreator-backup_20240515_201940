@@ -187,6 +187,105 @@
           }
         ]
       }
+    },
+    {
+      "name": "Playerheart",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerheart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/item/PlayerheartItem.java",
+          "src/main/resources/assets/unlocked_forge/models/item/playerheart.json"
+        ]
+      }
+    },
+    {
+      "name": "Electricity",
+      "type": "potioneffect",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/potion/ElectricityMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectricityEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricity_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/ElectricityEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningSwordRightclicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/procedures/LightningSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electricitypart",
+      "type": "particle",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricitypart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/unlockedforge/client/particle/ElectricitypartParticle.java",
+          "src/main/resources/assets/unlocked_forge/particles/electricitypart.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -194,11 +293,13 @@
   "tag_elements": {},
   "language_map": {
     "en_us": {
+      "effect.unlocked_forge.electricity": "Electricity",
       "item.unlocked_forge.reinforced_shield": "Reinforced Shield",
       "item_group.unlocked_forge.unlocked": "Unlocked",
       "item.unlocked_forge.lightning_sword": "Lightning Sword",
       "item.unlocked_forge.scythe": "Scythe",
       "item.unlocked_forge.haste_sword": "Haste Sword",
+      "item.unlocked_forge.playerheart": "Playerheart",
       "item.unlocked_forge.bee_hammer": "Bee Hammer",
       "item.unlocked_forge.shadow_axe": "Shadow Axe",
       "item.unlocked_forge.border_expansion_rune": "Border Expansion Rune",

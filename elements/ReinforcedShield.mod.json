@@ -4,23 +4,23 @@
   "definition": {
     "toolType": "Shield",
     "renderType": 1,
-    "blockingRenderType": 0,
+    "blockingRenderType": 1,
     "texture": "reinforcedshield",
     "customModelName": "shield:default",
-    "blockingModelName": "Normal blocking",
+    "blockingModelName": "shield:default",
     "name": "Reinforced Shield",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Unlocked"
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 111100,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false

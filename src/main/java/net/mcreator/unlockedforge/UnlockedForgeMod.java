@@ -18,6 +18,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.unlockedforge.init.UnlockedForgeModTabs;
+import net.mcreator.unlockedforge.init.UnlockedForgeModParticleTypes;
+import net.mcreator.unlockedforge.init.UnlockedForgeModMobEffects;
 import net.mcreator.unlockedforge.init.UnlockedForgeModItems;
 import net.mcreator.unlockedforge.init.UnlockedForgeModEntities;
 
@@ -45,6 +47,10 @@ public class UnlockedForgeMod {
 		UnlockedForgeModEntities.REGISTRY.register(bus);
 
 		UnlockedForgeModTabs.REGISTRY.register(bus);
+
+		UnlockedForgeModMobEffects.REGISTRY.register(bus);
+
+		UnlockedForgeModParticleTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

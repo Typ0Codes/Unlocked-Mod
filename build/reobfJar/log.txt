@@ -134,15 +134,50 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/LightningSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/HasteSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/DiggerItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
 Conflicting propagated mapping for net/mcreator/unlockedforge/item/BeeHammerItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/mcreator/unlockedforge/entity/EchoEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/mcreator/unlockedforge/entity/EchoEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/mcreator/unlockedforge/entity/EchoEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/mcreator/unlockedforge/entity/EchoEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/unlockedforge/entity/EchoEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/PlayerheartItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ScytheItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/ShadowAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/WardenBowItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/WardenBowItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/WardenBowItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/mcreator/unlockedforge/item/WardenBowItem/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/item/Item/releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V: releaseUsing -> m_5551_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\output.jar
@@ -156,24 +191,64 @@ Writing Output: C:\Users\ARGam\MCreatorWorkspaces\UnlockedForge\build\reobfJar\o
   assets/unlocked_forge/models/
   assets/unlocked_forge/models/custom/
   assets/unlocked_forge/models/custom/bee.json
+  assets/unlocked_forge/models/custom/scythe.json
+  assets/unlocked_forge/models/custom/shield.json
   assets/unlocked_forge/models/item/
   assets/unlocked_forge/models/item/bee_hammer.json
+  assets/unlocked_forge/models/item/border_expansion_rune.json
+  assets/unlocked_forge/models/item/haste_sword.json
+  assets/unlocked_forge/models/item/lightning_sword.json
+  assets/unlocked_forge/models/item/playerheart.json
+  assets/unlocked_forge/models/item/reinforced_shield.json
+  assets/unlocked_forge/models/item/reinforced_shield_0.json
+  assets/unlocked_forge/models/item/scythe.json
+  assets/unlocked_forge/models/item/shadow_axe.json
+  assets/unlocked_forge/models/item/warden_bow.json
   assets/unlocked_forge/textures/
   assets/unlocked_forge/textures/item/
+  assets/unlocked_forge/textures/item/borderexpander.png
+  assets/unlocked_forge/textures/item/hastysword.png
+  assets/unlocked_forge/textures/item/heartsword.png
   assets/unlocked_forge/textures/item/image-removebg-preview.png
   assets/unlocked_forge/textures/item/key.png
+  assets/unlocked_forge/textures/item/lightningsword.png
+  assets/unlocked_forge/textures/item/playerheart.png
+  assets/unlocked_forge/textures/item/reinforcedshield.png
+  assets/unlocked_forge/textures/item/shadow_axe.png
+  assets/unlocked_forge/textures/item/sonicbow.png
   assets/unlocked_forge/textures/screens/
   assets/unlocked_forge/textures/screens/key.png
+  data/
+  data/unlocked_forge/
+  data/unlocked_forge/recipes/
+  data/unlocked_forge/recipes/border.json
   net/
   net/mcreator/
   net/mcreator/unlockedforge/
   net/mcreator/unlockedforge/UnlockedForgeMod.class
+  net/mcreator/unlockedforge/entity/
+  net/mcreator/unlockedforge/entity/EchoEntity.class
   net/mcreator/unlockedforge/init/
+  net/mcreator/unlockedforge/init/UnlockedForgeModEntities.class
+  net/mcreator/unlockedforge/init/UnlockedForgeModEntityRenderers.class
   net/mcreator/unlockedforge/init/UnlockedForgeModItems.class
   net/mcreator/unlockedforge/init/UnlockedForgeModTabs.class
   net/mcreator/unlockedforge/item/
   net/mcreator/unlockedforge/item/BeeHammerItem$1.class
   net/mcreator/unlockedforge/item/BeeHammerItem.class
+  net/mcreator/unlockedforge/item/BorderExpansionRuneItem.class
+  net/mcreator/unlockedforge/item/HasteSwordItem$1.class
+  net/mcreator/unlockedforge/item/HasteSwordItem.class
+  net/mcreator/unlockedforge/item/LightningSwordItem$1.class
+  net/mcreator/unlockedforge/item/LightningSwordItem.class
+  net/mcreator/unlockedforge/item/PlayerheartItem.class
+  net/mcreator/unlockedforge/item/ReinforcedShieldItem.class
+  net/mcreator/unlockedforge/item/ScytheItem$1.class
+  net/mcreator/unlockedforge/item/ScytheItem.class
+  net/mcreator/unlockedforge/item/ShadowAxeItem$1.class
+  net/mcreator/unlockedforge/item/ShadowAxeItem.class
+  net/mcreator/unlockedforge/item/WardenBowItem.class
   net/mcreator/unlockedforge/procedures/
   net/mcreator/unlockedforge/procedures/BeeHammerLivingEntityIsHitWithToolProcedure.class
+  net/mcreator/unlockedforge/procedures/PlayerHeadProcedure.class
   pack.mcmeta
